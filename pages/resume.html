@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../styles/resume.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="header-section">
+        <div class="navbar">
+          <h1 class="name">Ahmed</h1>
+
+          <div class="nav">
+            <div class="navbar-item navlink">
+              <a href="/pages/index.html">Home</a>
+            </div>
+            <div class="navbar-item navlink">
+              <a href="/pages/about.html">About</a>
+            </div>
+            <div class="navbar-item navlink">
+              <a href="/pages/resume.html">Resume</a>
+            </div>
+          </div>
+          <button
+            class="button navbar-item original-get-in-touch"
+            onclick="location.href='mailto:cayde@duck.com'"
+          >
+            GET IN TOUCH
+          </button>
+          <button class="menu-toggle" aria-label="Toggle Menu">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="tiles-section">
+          <div class="tile intro">
+            <img src="../assets/selfie.png" alt="Selfie" class="selfie" />
+            <h1>Ahmed Khafaji</h1>
+            <h3>Fullstack Engineer</h3>
+            <p class="email">cayde@duck.com</p>
+            <button
+              class="button navbar-item contact-me"
+              onclick="location.href='mailto:cayde@duck.com'"
+            >
+              Contact me
+            </button>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <div class="resume">
+            <div class="resume-part small-intro">
+              <h1 class="resume-part little-about-me">A little about me</h1>
+              <p class="resume-part small-intro-description description">
+                I'm currently looking to gain skills and experience in the field
+                of software engineering. I'm a quick learner. I'm always looking
+                for new challenges and opportunities to grow.
+              </p>
+            </div>
+            <div class="resume-part experience">
+              <h1>Experience</h1>
+              <div class="resume-part experience-list">
+                <h1 class="job-title">Web Developer @ Lightring AI</h1>
+                <h4>Dec 2023 - Present</h4>
+                <p class="description">Worked on multiple projects as main web developer</p>
+              </div>
+            </div>
+            <div class="resume-part education">
+              <h1>Education</h1>
+              <div class="resume-part education-list">
+                <h1>York Unversity</h1>
+                <h2>Bachelor of engineering - Software Engineering</h2>
+                <h4 class="description">Aug 2020 - May 2025</h4>
+              </div>
+            </div>
+            <div class="resume-part skills">
+              <h1>Skills</h1>
+              <div class="resume-part skills-list">
+                <h1>Java</h1>
+                <h1>HTML</h1>
+                <h1>CSS</h1>
+                <h1>JavaScript</h1>
+                <h1>Typescript</h1>
+                <h1>React</h1>
+                <h1>Node.js</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>

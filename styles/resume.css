@@ -1,0 +1,149 @@
+@import url("/styles/styles.css");
+
+/* For Small Screens */
+@media screen and (max-width: 767px) {
+  /* container styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* section styles */
+  .tiles-section {
+    flex: 1;
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .resume-section {
+    padding: 30px;
+    flex-direction: column;
+  }
+}
+
+/* For Medium Screens */
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  /* container styles */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* section styles */
+  .tiles-section {
+    flex: 1;
+    padding: 30px;
+    flex-direction: column;
+    width: 35%;
+  }
+
+  .resume-section {
+    padding: 30px;
+    flex-direction: column;
+    width: 65%;
+  }
+}
+
+/* For Large Screens */
+@media screen and (min-width: 1200px) {
+  /* container styles */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* section styles */
+  .tiles-section {
+    padding: 30px;
+    flex-direction: column;
+    width: 35%;
+  }
+
+  .resume-section {
+    padding: 30px;
+    flex-direction: column;
+    width: 65%;
+  }
+}
+
+/* tiles styles */
+.intro {
+  display: flex;
+  flex-direction: column;
+  min-width: 110px;
+}
+
+/* img styles */
+.selfie {
+  width: 60%;
+  height: auto;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+/* description styles */
+
+.resume-part {
+    opacity: 0;
+}
+
+.resume-part.animate {
+    opacity: 1;
+    transition: opacity 2s ease-in, transform 0.1s ease-in;
+    transform: translateY(0);
+}
+
+.email {
+    margin-bottom: 30px;
+}
+
+.resume .description {
+    margin-bottom: 40px;
+}
+
+.small-intro-description {
+    color: var(--third-color);
+}
+
+.experience-list .job-title {
+    color: var(--second-color);
+    margin-bottom: 5px;
+}
+
+.experience-list h4 {
+    margin-top: 0px;
+}
+
+.experience-list p {
+    color: var(--third-color);
+}
+
+.education-list h1 {
+    color: var(--second-color);
+    margin-bottom: 5px;
+}
+
+.education-list h2 {
+    color: var(--third-color);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.education-list h4 {
+    color: var(--third-color);
+    margin-top: 0px;
+}
+
+.skills-list {
+    color: var(--third-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-list h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>About me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../styles/about.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <section class="header-section">
+        <div class="navbar">
+          <h1 class="name">Ahmed</h1>
+
+          <div class="nav">
+            <div class="navbar-item navlink">
+              <a href="/pages/index.html">Home</a>
+            </div>
+            <div class="navbar-item navlink">
+              <a href="/pages/about.html">About</a>
+            </div>
+            <div class="navbar-item navlink">
+              <a href="/pages/resume.html">Resume</a>
+            </div>
+          </div>
+          <button
+            class="button navbar-item original-get-in-touch"
+            onclick="location.href='mailto:cayde@duck.com'"
+          >
+            GET IN TOUCH
+          </button>
+          <button class="menu-toggle" aria-label="Toggle Menu">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="hero">
+        <h1 class="about-hero">About Me</h1>
+      </section>
+
+      <section class="tiles-section">
+        <div class="tiles">
+          <div class="tile tile-3 image">
+            <img src="../assets/setup.png" alt="Setup" class="Setup"/> 
+            <img src="../assets/favicon.png" alt="Selfie" class="Selfie"/>
+          </div>
+          <div class="tile intro">
+            <h1 class="about-hi">Hey, I'm Ahmed 👋🏻</h1>
+            <h3 class="occupation">Fullstack Engineer</h3>
+          </div>
+          <div class="tile experience">
+            <h1>Experience</h1>
+            <ul class="experience-list">
+              <li>Fullstack Engineer</li>
+              <li>Auction </li>
+            </ul>
+          </div>
+          <div class="tile tile-3">
+            <h1>About Me</h1>
+            <p class="about-me-description">
+              I'm a passionate full-stack engineer with expertise in creating exceptional web applications. Skilled in front-end and back-end development, I specialize in HTML, CSS, JavaScript, and modern frameworks like React and Node.js.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
