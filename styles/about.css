@@ -2,7 +2,7 @@
 
 
 @media only screen and (max-width: 767px) {
-  .anout-hero {
+  .about-hero {
     font-size: 90px;
   }
 }
@@ -11,8 +11,6 @@
 .about-hero {
   text-align: center;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   color: var(--tile-color);
   font-size: 210px;
   font-weight: 500;
@@ -41,15 +39,15 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 35%;
+  height: 80%;
 }
 
 .Setup {
   transform: translateX(-20px);
   max-width: 100%;
   width: 55%;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: fill;
 }
 
 /* description styles */
