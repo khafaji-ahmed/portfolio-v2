@@ -47,6 +47,20 @@ body {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+.button.navbar-item.original-get-in-touch {
+  font-family: Montserrat, DM Sans, sans-serif;
+}
+
+
+.button.navbar-item.contact-me {
+  font-family: Montserrat, DM Sans, sans-serif;
+}
+
+.about-me-description {
+  color: var(--third-color);
+}
+
+
 /* For Small Screens */
 @media screen and (max-width: 767px) {
   /* navbar styles */
