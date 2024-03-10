@@ -69,6 +69,10 @@
   }
 }
 
+.resumePDF {
+  width: 100%;
+}
+
 /* tiles styles */
 .intro {
   display: flex;
